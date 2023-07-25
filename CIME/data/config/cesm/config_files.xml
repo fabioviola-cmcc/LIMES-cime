@@ -130,6 +130,7 @@
       <value component="xatm" comp_interface="mct"   >$SRCROOT/components/cpl7/components/xcpl_comps_$COMP_INTERFACE/xatm</value>
       <value component="cam"                         >$SRCROOT/components/cam/</value>
       <value component="ufsatm"                      >$SRCROOT/components/fv3/</value>
+      <value component="wrf" comp_interface="nuopc" >$SRCROOT/components/wrf/</value>
     </values>
     <group>case_comps</group>
     <file>env_case.xml</file>
@@ -314,6 +315,7 @@
       <value component="pop"       >$COMP_ROOT_DIR_OCN/cime_config/config_compsets.xml</value>
       <value component="mom"       >$COMP_ROOT_DIR_OCN/cime_config/config_compsets.xml</value>
       <value component="nemo"      >$COMP_ROOT_DIR_OCN/cime_config/config_compsets.xml</value>
+      <value component="wrf"      >$COMP_ROOT_DIR_ATM/cime_config/config_compsets.xml</value>
     </values>
     <group>case_last</group>
     <file>env_case.xml</file>
@@ -337,6 +339,7 @@
       <value component="pop"       >$COMP_ROOT_DIR_OCN/cime_config/config_pes.xml</value>
       <value component="mom"       >$COMP_ROOT_DIR_OCN/cime_config/config_pes.xml</value>
       <value component="nemo"      >$COMP_ROOT_DIR_OCN/cime_config/config_pes.xml</value>
+      <value component="wrf"       >$COMP_ROOT_DIR_WRF/cime_config/config_pes.xml</value>
     </values>
     <group>case_last</group>
     <file>env_case.xml</file>
@@ -371,6 +374,7 @@
       <value component="hydros"    >$COMP_ROOT_DIR_ROF/cime_config/config_archive.xml</value>
       <value component="mizuroute" >$COMP_ROOT_DIR_ROF/cime_config/config_archive.xml</value>
       <value component="ww3dev"    >$COMP_ROOT_DIR_WAV/cime_config/config_archive.xml</value>
+      <value component="wrf">$COMP_ROOT_DIR_ATM/cime_config/config_archive.xml</value>
     </values>
     <group>case_last</group>
     <file>env_case.xml</file>
@@ -395,6 +399,7 @@
       <value component="mosart"    >$COMP_ROOT_DIR_ROF/cime_config/SystemTests</value>
       <value component="hydros"    >$COMP_ROOT_DIR_ROF/cime_config/SystemTests</value>
       <value component="mizuroute" >$COMP_ROOT_DIR_ROF/cime_config/SystemTests</value>
+      <value component="wrf"       >$COMP_ROOT_DIR_ATM/cime_config/SystemTests</value>
     </values>
     <group>test</group>
     <file>env_test.xml</file>
