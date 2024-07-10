@@ -131,7 +131,6 @@
       <value component="cam"                         >$SRCROOT/components/cam/</value>
       <value component="ufsatm"                      >$SRCROOT/components/fv3/</value>
       <value component="wrf" comp_interface="nuopc" >$SRCROOT/components/wrf/</value>
-      <value component="nemo" comp_interface="nuopc" >$SRCROOT/components/nemo/</value>
     </values>
     <group>case_comps</group>
     <file>env_case.xml</file>
